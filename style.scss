@@ -2,62 +2,60 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 body{
     width: 100vw;
-    height: 100vh;
-    margin: 0;
-    padding-top: 3%;
-    padding-bottom: 3%;
-    display: flex;
-    justify-content: center;
+    height: 103vh;
     .carte{
-        width: 95%;
-        height: 64.5%;
-        display: flex;
-        flex-direction: column;
+        width: 100%;
+        height: 66%;
         background-color: #f5f5f5;
         box-shadow: 1px 1px 15px 5px rgb(66, 66, 66);
         border-radius: 1%;
+
+        &:hover{
+            .info{ 
+                visibility: visible;
+            }
+        }
         .image{
+            position: absolute;
             img{
-            width: 100%;
+            width: 102%;
             border-radius: 1% 1% 1% 1%;
                 &:hover{
-                    filter:opacity(40%)
+                    filter:opacity(20%)
                 }
             }
         }
-    }
-    .info{
-        display: none;
-        &:hover{
-            display: inline;
+        .info{
+            position: relative;
+            visibility: hidden;
             margin-left: 5%;
-            .titre_date{
-                display: flex;
-                flex-direction: row;
-                flex-wrap: wrap;
-                align-items: baseline;
-                justify-content: flex-start;
-                .titre{
-                    font-family: 'Fjalla One', sans-serif;
+            display: flex;
+            flex-direction: column;
+                .titre_date{
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap: wrap;
+                    align-items: baseline;
+                    justify-content: flex-start;
+                    .titre{
+                        font-family: 'Fjalla One', sans-serif;
+                    }
+                    .date{
+                        font-family: 'Roboto', sans-serif;
+                        font-size: 150%;
+                        margin-left: 5%;
+                    }
                 }
-                .date{
+                .other{
+                    display: flex;
+                    flex-direction: column;
+                    flex-wrap: wrap;
                     font-family: 'Roboto', sans-serif;
-                    font-size: 150%;
-                    margin-left: 5%;
                 }
-            }
-            .other{
-                display: flex;
-                flex-direction: column;
-                flex-wrap: wrap;
-                font-family: 'Roboto', sans-serif;
-            }
+        }
+        .link{
+            visibility: hidden;
         }
     }
-    .link{
-        display: none;
-        iframe{
-            width: 100%;
-        }
-    }
+    
 }
