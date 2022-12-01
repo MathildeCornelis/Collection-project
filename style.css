@@ -9,17 +9,36 @@ body {
   width: 100vw;
   height: 100vh;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
   overflow: hidden;
 }
+@media screen and (min-width: 1280px) {
+  body {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 2%;
+    margin-top: 2%;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
 body .carte {
-  position: absolute;
   width: 80%;
   height: 54.5%;
   background-color: #d8d8d8;
   box-shadow: 1px 1px 15px 5px rgb(66, 66, 66);
   border-radius: 1%;
   margin-top: 5%;
+}
+@media screen and (min-width: 1280px) {
+  body .carte {
+    position: inherit;
+    width: 30%;
+    height: 65.4%;
+    margin: 1%;
+  }
 }
 body .carte:hover .info {
   visibility: visible;
@@ -35,9 +54,15 @@ body .carte .info {
   position: relative;
   visibility: hidden;
   margin-left: 5%;
+  margin-right: 5%;
   display: flex;
   flex-direction: column;
-  margin-top: -116%;
+  margin-top: -125%;
+}
+@media screen and (min-width: 1280px) {
+  body .carte .info {
+    margin-top: -115%;
+  }
 }
 body .carte .info .titre_date {
   display: flex;
@@ -51,7 +76,7 @@ body .carte .info .titre_date .titre {
 }
 body .carte .info .titre_date .date {
   font-family: "Roboto", sans-serif;
-  font-size: 0%;
+  font-size: 150%;
   margin-left: 5%;
 }
 body .carte .info .other {
@@ -60,6 +85,20 @@ body .carte .info .other {
   flex-wrap: wrap;
   font-family: "Roboto", sans-serif;
 }
-body .carte .link {
-  visibility: hidden;
+body .carte .info .other .real {
+  margin-top: 3%;
+}
+body .carte .info .other .cast {
+  margin-top: 3%;
+}
+body .carte .info .other .desc {
+  margin-top: 6%;
+}
+body .carte .info .link {
+  margin-top: 3%;
+}
+body .carte .info .link a {
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  color: black;
 }/*# sourceMappingURL=style.css.map */
