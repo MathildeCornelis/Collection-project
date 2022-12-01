@@ -23,6 +23,7 @@ body .carte .image img {
   border-radius: 1% 1% 1% 1%;
 }
 body .carte .image img:hover {
+  width: 100%;
   overflow: hidden;
   filter: opacity(40%);
 }
