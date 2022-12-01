@@ -11,6 +11,7 @@ body {
 }
 body .carte {
   width: 95%;
+  height: 64.5%;
   display: flex;
   flex-direction: column;
   background-color: #f5f5f5;
@@ -19,28 +20,43 @@ body .carte {
 }
 body .carte .image img {
   width: 100%;
-  border-radius: 1% 1% 0% 0%;
+  border-radius: 1% 1% 1% 1%;
 }
-body .info .titre_date {
+body .carte .image img:hover {
+  overflow: hidden;
+  filter: opacity(40%);
+}
+body .info {
+  display: none;
+}
+body .info:hover {
+  display: inline;
+  margin-left: 5%;
+}
+body .info:hover .titre_date {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   align-items: baseline;
   justify-content: flex-start;
-  margin-left: 5%;
 }
-body .info .titre_date .titre {
+body .info:hover .titre_date .titre {
   font-family: "Fjalla One", sans-serif;
 }
-body .info .titre_date .date {
+body .info:hover .titre_date .date {
   font-family: "Roboto", sans-serif;
   font-size: 150%;
   margin-left: 5%;
 }
-body .info .other {
+body .info:hover .other {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  justify-content: flex-start;
-  margin-left: 5%;
+  font-family: "Roboto", sans-serif;
+}
+body .link {
+  display: none;
+}
+body .link iframe {
+  width: 100%;
 }/*# sourceMappingURL=style.css.map */
