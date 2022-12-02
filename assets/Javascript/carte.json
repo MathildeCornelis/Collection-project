@@ -16,5 +16,50 @@
         "genre": ["Super-héros", "Action", "Cinéma de fantasy"],
         "cast": ["Cast member :", "Gemma Chan", "Richard Madden", "Angeline Jolie", "Salma Hayek", "Kumail Nanjiani", "Harry Styles", "..."],
         "resume": "Depuis l'aube de l'humanité, les Éternels, un groupe de héros venus des confins de l'univers, protègent la Terre. Lorsque les Déviants, des créatures monstrueuses que l'on croyait disparues depuis longtemps, réapparaissent mystérieusement, les Éternels sont à nouveau obligés de se réunir pour défendre l'humanité…"
+    },
+    {
+        "name": "Les Éternels",
+        "director": "Réalisateur : Chloé Zhao",
+        "releaseYear": 2021,
+        "picture": "./assets/photos/eternels.jpg",
+        "genre": ["Super-héros", "Action", "Cinéma de fantasy"],
+        "cast": ["Cast member :", "Gemma Chan", "Richard Madden", "Angeline Jolie", "Salma Hayek", "Kumail Nanjiani", "Harry Styles", "..."],
+        "resume": "Depuis l'aube de l'humanité, les Éternels, un groupe de héros venus des confins de l'univers, protègent la Terre. Lorsque les Déviants, des créatures monstrueuses que l'on croyait disparues depuis longtemps, réapparaissent mystérieusement, les Éternels sont à nouveau obligés de se réunir pour défendre l'humanité…"
+    },
+    {
+        "name": "Les Éternels",
+        "director": "Réalisateur : Chloé Zhao",
+        "releaseYear": 2021,
+        "picture": "./assets/photos/eternels.jpg",
+        "genre": ["Super-héros", "Action", "Cinéma de fantasy"],
+        "cast": ["Cast member :", "Gemma Chan", "Richard Madden", "Angeline Jolie", "Salma Hayek", "Kumail Nanjiani", "Harry Styles", "..."],
+        "resume": "Depuis l'aube de l'humanité, les Éternels, un groupe de héros venus des confins de l'univers, protègent la Terre. Lorsque les Déviants, des créatures monstrueuses que l'on croyait disparues depuis longtemps, réapparaissent mystérieusement, les Éternels sont à nouveau obligés de se réunir pour défendre l'humanité…"
+    },
+    {
+        "name": "Les Éternels",
+        "director": "Réalisateur : Chloé Zhao",
+        "releaseYear": 2021,
+        "picture": "./assets/photos/eternels.jpg",
+        "genre": ["Super-héros", "Action", "Cinéma de fantasy"],
+        "cast": ["Cast member :", "Gemma Chan", "Richard Madden", "Angeline Jolie", "Salma Hayek", "Kumail Nanjiani", "Harry Styles", "..."],
+        "resume": "Depuis l'aube de l'humanité, les Éternels, un groupe de héros venus des confins de l'univers, protègent la Terre. Lorsque les Déviants, des créatures monstrueuses que l'on croyait disparues depuis longtemps, réapparaissent mystérieusement, les Éternels sont à nouveau obligés de se réunir pour défendre l'humanité…"
+    },
+    {
+        "name": "Les Éternels",
+        "director": "Réalisateur : Chloé Zhao",
+        "releaseYear": 2021,
+        "picture": "./assets/photos/eternels.jpg",
+        "genre": ["Super-héros", "Action", "Cinéma de fantasy"],
+        "cast": ["Cast member :", "Gemma Chan", "Richard Madden", "Angeline Jolie", "Salma Hayek", "Kumail Nanjiani", "Harry Styles", "..."],
+        "resume": "Depuis l'aube de l'humanité, les Éternels, un groupe de héros venus des confins de l'univers, protègent la Terre. Lorsque les Déviants, des créatures monstrueuses que l'on croyait disparues depuis longtemps, réapparaissent mystérieusement, les Éternels sont à nouveau obligés de se réunir pour défendre l'humanité…"
+    },
+    {
+        "name": "Les Éternels",
+        "director": "Réalisateur : Chloé Zhao",
+        "releaseYear": 2021,
+        "picture": "./assets/photos/eternels.jpg",
+        "genre": ["Super-héros", "Action", "Cinéma de fantasy"],
+        "cast": ["Cast member :", "Gemma Chan", "Richard Madden", "Angeline Jolie", "Salma Hayek", "Kumail Nanjiani", "Harry Styles", "..."],
+        "resume": "Depuis l'aube de l'humanité, les Éternels, un groupe de héros venus des confins de l'univers, protègent la Terre. Lorsque les Déviants, des créatures monstrueuses que l'on croyait disparues depuis longtemps, réapparaissent mystérieusement, les Éternels sont à nouveau obligés de se réunir pour défendre l'humanité…"
     }
 ]

@@ -5,26 +5,26 @@ fetch("assets/Javascript/carte.json")
     .then((data) => { 
         for (let elements of data){
             let carte = `
-            <div class="carte">
-                <div class="image">
-                    <img src="${elements.picture}">
-                </div>  
-                <div class="info">
-                    <div class="titre_date">
-                        <h1 class="titre">${elements.name}</h1>
-                        <p class="date">${elements.releaseYear}</p>
+            <div class="main">
+                <div class="carte">
+                        <img src="${elements.picture}"> 
+                    <div class="info">
+                        <div class="titre_date">
+                            <h1 class="titre">${elements.name}</h1>
+                            <p class="date">${elements.releaseYear}</p>
+                        </div>
+                        <div class="other">
+                            <div class="real">
+                                <p>${elements.director}</p>
+                            </div>
+                            <div class="cast">
+                                <p>${elements.cast}</p>
+                            </div>
+                            <div class="desc">
+                                <p>${elements.resume}</p>
+                            </div>
+                        </div>  
                     </div>
-                    <div class="other">
-                        <div class="real">
-                            <p>${elements.director}</p>
-                        </div>
-                        <div class="cast">
-                            <p>${elements.cast}</p>
-                        </div>
-                        <div class="desc">
-                            <p>${elements.resume}</p>
-                        </div>
-                    </div>  
                 </div>
             </div>
             `;
