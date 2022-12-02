@@ -1,18 +1,9 @@
 let URL = "https://www.youtube.com/watch?v=nHcubNwuKFA";
 let texte = "Bande d'annonce 👇🏻"
-const collection = [
-    {
-        name: "Les Éternels",
-        director: "Réalisateur : Chloé Zhao",
-        releaseYear: 2021,
-        picture: "./assets/eternels.jpg",
-        genre: ["Super-héros", "Action", "Cinéma de fantasy"],
-        cast: ["Cast member :", "Gemma Chan", "Richard Madden", "Angeline Jolie", "Salma Hayek", "Kumail Nanjiani", "Harry Styles", "..."],
-        resume: "Depuis l'aube de l'humanité, les Éternels, un groupe de héros venus des confins de l'univers, protègent la Terre. Lorsque les Déviants, des créatures monstrueuses que l'on croyait disparues depuis longtemps, réapparaissent mystérieusement, les Éternels sont à nouveau obligés de se réunir pour défendre l'humanité…",
-        link: texte.link(URL),
-    },
-];
 
+const obj = JSON.parse(collection);
+
+/*création des tags dans l'HTML de la console*/
 function onload(){
     let div_carte = document.createElement("div");
     div_carte.classList.add('carte');
@@ -60,6 +51,13 @@ function onload(){
     let p_cast = document.createElement("p");
     div_cast.appendChild(p_cast);
 
+    let div_desc = document.createElement("div");
+    div_desc.classList.add('desc');
+    div_other.appendChild(div_desc);
+
+    let p_desc = document.createElement("p");
+    div_desc.appendChild(p_desc);
+
     let div_link = document.createElement("div");
     div_link.classList.add('link');
     div_info.appendChild(div_link);
@@ -69,3 +67,6 @@ function onload(){
 
 
 }
+
+/*injecter les objets dans l'HTML généré par le JS*/
+
