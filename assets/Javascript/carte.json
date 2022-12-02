@@ -4,62 +4,79 @@
         "director": "Réalisateur : Chloé Zhao",
         "releaseYear": 2021,
         "picture": "./assets/photos/eternels.jpg",
-        "genre": ["Super-héros", "Action", "Cinéma de fantasy"],
         "cast": ["Cast member :", "Gemma Chan", "Richard Madden", "Angeline Jolie", "Salma Hayek", "Kumail Nanjiani", "Harry Styles", "..."],
         "resume": "Depuis l'aube de l'humanité, les Éternels, un groupe de héros venus des confins de l'univers, protègent la Terre. Lorsque les Déviants, des créatures monstrueuses que l'on croyait disparues depuis longtemps, réapparaissent mystérieusement, les Éternels sont à nouveau obligés de se réunir pour défendre l'humanité…"
     },
     {
-        "name": "Les Éternels",
-        "director": "Réalisateur : Chloé Zhao",
+        "name": "Black Widow",
+        "director": "Réalisateur : Cate Shortland",
         "releaseYear": 2021,
-        "picture": "./assets/photos/eternels.jpg",
-        "genre": ["Super-héros", "Action", "Cinéma de fantasy"],
-        "cast": ["Cast member :", "Gemma Chan", "Richard Madden", "Angeline Jolie", "Salma Hayek", "Kumail Nanjiani", "Harry Styles", "..."],
-        "resume": "Depuis l'aube de l'humanité, les Éternels, un groupe de héros venus des confins de l'univers, protègent la Terre. Lorsque les Déviants, des créatures monstrueuses que l'on croyait disparues depuis longtemps, réapparaissent mystérieusement, les Éternels sont à nouveau obligés de se réunir pour défendre l'humanité…"
+        "picture": "./assets/photos/widow.jpg",
+        "cast": ["Cast member :", "Scarlett Johansson", "Florence Pugh", "Rachel Weisz", "..."],
+        "resume": "Natasha Romanoff, alias Black Widow, voit resurgir la part la plus sombre de son passé pour faire face à une redoutable conspiration liée à sa vie d’autrefois. Poursuivie par une force qui ne reculera devant rien pour l’abattre, Natasha doit renouer avec ses activités d’espionne et avec des liens qui furent brisés, bien avant qu’elle ne rejoigne les Avengers. "
     },
     {
-        "name": "Les Éternels",
-        "director": "Réalisateur : Chloé Zhao",
-        "releaseYear": 2021,
-        "picture": "./assets/photos/eternels.jpg",
-        "genre": ["Super-héros", "Action", "Cinéma de fantasy"],
-        "cast": ["Cast member :", "Gemma Chan", "Richard Madden", "Angeline Jolie", "Salma Hayek", "Kumail Nanjiani", "Harry Styles", "..."],
-        "resume": "Depuis l'aube de l'humanité, les Éternels, un groupe de héros venus des confins de l'univers, protègent la Terre. Lorsque les Déviants, des créatures monstrueuses que l'on croyait disparues depuis longtemps, réapparaissent mystérieusement, les Éternels sont à nouveau obligés de se réunir pour défendre l'humanité…"
+        "name": "Black Adam",
+        "director": "Réalisateur : Jaume Collet-Serra",
+        "releaseYear": 2022,
+        "picture": "./assets/photos/adam.jpg",
+        "cast": ["Cast member :", "Dwayne Johnson", "Aldis Hodge", "Pierce Brosnan", "..."],
+        "resume": "Dans l’antique Kahndaq, l’esclave Teth Adam avait reçu les super-pouvoirs des dieux. Mais il en a fait usage pour se venger et a fini en prison. Cinq millénaires plus tard, alors qu’il a été libéré, il fait régner sa conception très sombre de la justice dans le monde. Refusant de se rendre, Teth Adam doit affronter une bande de héros d’aujourd’hui qui composent la Justice Society – Hawkman, le Dr Fate, Atom Smasher et Cyclone – qui comptent bien le renvoyer en prison pour l’éternité."
     },
     {
-        "name": "Les Éternels",
-        "director": "Réalisateur : Chloé Zhao",
-        "releaseYear": 2021,
-        "picture": "./assets/photos/eternels.jpg",
-        "genre": ["Super-héros", "Action", "Cinéma de fantasy"],
-        "cast": ["Cast member :", "Gemma Chan", "Richard Madden", "Angeline Jolie", "Salma Hayek", "Kumail Nanjiani", "Harry Styles", "..."],
-        "resume": "Depuis l'aube de l'humanité, les Éternels, un groupe de héros venus des confins de l'univers, protègent la Terre. Lorsque les Déviants, des créatures monstrueuses que l'on croyait disparues depuis longtemps, réapparaissent mystérieusement, les Éternels sont à nouveau obligés de se réunir pour défendre l'humanité…"
+        "name": "Thor: Love And Thunder",
+        "director": "Réalisateur : Taika Waititi",
+        "releaseYear": 2022,
+        "picture": "./assets/photos/thor.jpg",
+        "cast": ["Cast member :", "Chris Hemsworth", "Natalie Portman", "Christian Bales", "..."],
+        "resume": "Alors que Thor est en pleine introspection et en quête de sérénité, sa retraite est interrompue par un tueur galactique connu sous le nom de Gorr, qui s’est donné pour mission d’exterminer tous les dieux. Pour affronter cette menace, Thor demande l’aide de Valkyrie, de Korg et de son ex-petite amie Jane Foster, qui, à sa grande surprise, manie inexplicablement son puissant marteau, le Mjolnir. Ensemble, ils se lancent dans une dangereuse aventure cosmique pour comprendre les motivations qui poussent Gorr à la vengeance et l’arrêter avant qu’il ne soit trop tard."
     },
     {
-        "name": "Les Éternels",
-        "director": "Réalisateur : Chloé Zhao",
-        "releaseYear": 2021,
-        "picture": "./assets/photos/eternels.jpg",
-        "genre": ["Super-héros", "Action", "Cinéma de fantasy"],
-        "cast": ["Cast member :", "Gemma Chan", "Richard Madden", "Angeline Jolie", "Salma Hayek", "Kumail Nanjiani", "Harry Styles", "..."],
-        "resume": "Depuis l'aube de l'humanité, les Éternels, un groupe de héros venus des confins de l'univers, protègent la Terre. Lorsque les Déviants, des créatures monstrueuses que l'on croyait disparues depuis longtemps, réapparaissent mystérieusement, les Éternels sont à nouveau obligés de se réunir pour défendre l'humanité…"
+        "name": "Doctor Strange in the Multiverse of Madness",
+        "director": "Réalisateur : Sam Raimi",
+        "releaseYear": 2022,
+        "picture": "./assets/photos/strange.jpg",
+        "cast": ["Benedict Cumberbatch", "Elizabeth Olsen", "Chiwetel Ejiofor", "..."],
+        "resume": "Dans ce nouveau film Marvel Studios, l’univers cinématographique Marvel déverrouille et repousse les limites du multivers encore plus loin. Voyagez dans l’inconnu avec Doctor Strange, qui avec l’aide d’anciens et de nouveaux alliés mystiques, traverse les réalités hallucinantes et dangereuses du multivers pour affronter un nouvel adversaire mystérieux."
     },
     {
-        "name": "Les Éternels",
-        "director": "Réalisateur : Chloé Zhao",
+        "name": "Spider-Man: No Way Home",
+        "director": "Réalisateur : Jon Watts",
         "releaseYear": 2021,
-        "picture": "./assets/photos/eternels.jpg",
-        "genre": ["Super-héros", "Action", "Cinéma de fantasy"],
-        "cast": ["Cast member :", "Gemma Chan", "Richard Madden", "Angeline Jolie", "Salma Hayek", "Kumail Nanjiani", "Harry Styles", "..."],
-        "resume": "Depuis l'aube de l'humanité, les Éternels, un groupe de héros venus des confins de l'univers, protègent la Terre. Lorsque les Déviants, des créatures monstrueuses que l'on croyait disparues depuis longtemps, réapparaissent mystérieusement, les Éternels sont à nouveau obligés de se réunir pour défendre l'humanité…"
+        "picture": "./assets/photos/spiderman.jpg",
+        "cast": ["Tom Holland", "Zendaya", "Benedict Cumberbatch", "..."],
+        "resume": "Pour la première fois dans son histoire cinématographique, Spider-Man, le héros sympa du quartier est démasqué et ne peut désormais plus séparer sa vie normale de ses lourdes responsabilités de super-héros. Quand il demande de l'aide à Doctor Strange, les enjeux deviennent encore plus dangereux, le forçant à découvrir ce qu'être Spider-Man signifie véritablement."
     },
     {
-        "name": "Les Éternels",
-        "director": "Réalisateur : Chloé Zhao",
-        "releaseYear": 2021,
-        "picture": "./assets/photos/eternels.jpg",
-        "genre": ["Super-héros", "Action", "Cinéma de fantasy"],
-        "cast": ["Cast member :", "Gemma Chan", "Richard Madden", "Angeline Jolie", "Salma Hayek", "Kumail Nanjiani", "Harry Styles", "..."],
-        "resume": "Depuis l'aube de l'humanité, les Éternels, un groupe de héros venus des confins de l'univers, protègent la Terre. Lorsque les Déviants, des créatures monstrueuses que l'on croyait disparues depuis longtemps, réapparaissent mystérieusement, les Éternels sont à nouveau obligés de se réunir pour défendre l'humanité…"
+        "name": "Morbius",
+        "director": "Réalisateur : Daniel Espinosa",
+        "releaseYear": 2022,
+        "picture": "./assets/photos/morbius.jpg",
+        "cast": ["Jared Leto", "Matt Smith (XI)", "Adria Arjona", "..."],
+        "resume": "Gravement atteint d’une rare maladie sanguine, et déterminé à sauver toutes les victimes de cette pathologie, le Dr Morbius tente un pari désespéré. Alors que son expérience semble être un succès, le remède déclenche un effet sinistre. Le bien vaincra-t-il le mal – ou Morbius succombera-t-il à ses nouvelles pulsions ? "
+    },
+    {
+        "name": "Les Gardiens de la Galaxie 2",
+        "director": "Réalisateur : James Gunn",
+        "releaseYear": 2017,
+        "picture": "./assets/photos/gardiens.jpg",
+        "cast": ["Chris Pratt", "Zoe Saldana", "Dave Bautista", "..."],
+        "resume": "Les Gardiens de la galaxie 2 poursuit les aventures de l'équipe alors qu'elle traverse les confins du cosmos. Les gardiens doivent combattre pour rester unis alors qu'ils découvrent les mystères de la filiation de Peter Quill. Les vieux ennemis vont devenir de nouveaux alliés et des personnages bien connus des fans de comics vont venir aider nos héros et continuer à étendre l'univers Marvel."
+    },
+    {
+        "name": "Deadpool 2",
+        "director": "Réalisateur : David Leitch",
+        "releaseYear": 2018,
+        "picture": "./assets/photos/pool.jpg",
+        "cast": ["Ryan Reynolds", "Josh Brolin", "Morena Baccarin", "..."],
+        "resume": "L’insolent mercenaire de Marvel remet le masque ! Plus grand, plus-mieux, et occasionnellement les fesses à l’air, il devra affronter un Super-Soldat dressé pour tuer, repenser l’amitié, la famille, et ce que signifie l’héroïsme – tout en bottant cinquante nuances de culs, car comme chacun sait, pour faire le Bien, il faut parfois se salir les doigts."
+    },
+    {
+        "name": "Avengers: Infinity War",
+        "director": "Réalisateur : Joe Russo, Anthony Russo",
+        "releaseYear": 2018,
+        "picture": "./assets/photos/infinity.jpg",
+        "cast": ["Robert Downey Jr.", "Chris Hemsworth", "Mark Ruffalo", "..."],
+        "resume": "Les Avengers et leurs alliés devront être prêts à tout sacrifier pour neutraliser le redoutable Thanos avant que son attaque éclair ne conduise à la destruction complète de l’univers."
     }
 ]
