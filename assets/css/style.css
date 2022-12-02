@@ -46,6 +46,7 @@ body .carte:hover .info {
 body .carte .image img {
   width: 100%;
   border-radius: 1% 1% 1% 1%;
+  background-color: rgb(255, 0, 0);
 }
 body .carte .image img:hover {
   filter: opacity(20%);
@@ -57,12 +58,6 @@ body .carte .info {
   margin-right: 5%;
   display: flex;
   flex-direction: column;
-  margin-top: -125%;
-}
-@media screen and (min-width: 1280px) {
-  body .carte .info {
-    margin-top: -115%;
-  }
 }
 body .carte .info .titre_date {
   display: flex;
