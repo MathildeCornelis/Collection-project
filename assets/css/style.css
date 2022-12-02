@@ -1,11 +1,22 @@
 @import url("https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
-* {
+html {
+  background-color: rgb(30, 30, 30);
+}
+html * {
   margin: 0;
   padding: 0;
 }
-
-body {
+html header {
+  font-family: "Fjalla One", sans-serif;
+  color: rgb(250, 250, 250);
+  text-align: center;
+  margin-left: 3%;
+  margin-right: 3%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+html body {
   width: 100vw;
   height: 100vh;
   display: flex;
@@ -14,7 +25,7 @@ body {
   overflow: hidden;
 }
 @media screen and (min-width: 1280px) {
-  body {
+  html body {
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -24,75 +35,81 @@ body {
     flex-wrap: wrap;
   }
 }
-body .carte {
+html body .carte {
   width: 80%;
   height: 54.5%;
   background-color: #d8d8d8;
-  box-shadow: 1px 1px 15px 5px rgb(66, 66, 66);
+  box-shadow: 1px 1px 15px 5px rgb(128, 128, 128);
   border-radius: 1%;
   margin-top: 5%;
+  margin-bottom: 20%;
 }
 @media screen and (min-width: 1280px) {
-  body .carte {
+  html body .carte {
     position: inherit;
     width: 30%;
     height: 65.4%;
     margin: 1%;
   }
 }
-body .carte:hover .info {
+html body .carte:hover .info {
   visibility: visible;
 }
-body .carte .image img {
+html body .carte .image img {
   width: 100%;
   border-radius: 1% 1% 1% 1%;
-  background-color: rgb(255, 0, 0);
 }
-body .carte .image img:hover {
+html body .carte .image img:hover {
   filter: opacity(20%);
 }
-body .carte .info {
+html body .carte .info {
   position: relative;
   visibility: hidden;
   margin-left: 5%;
   margin-right: 5%;
   display: flex;
   flex-direction: column;
+  margin-top: -124%;
 }
-body .carte .info .titre_date {
+@media screen and (min-width: 1280px) {
+  html body .carte .info {
+    margin-top: -115%;
+  }
+}
+html body .carte .info .titre_date {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   align-items: baseline;
   justify-content: flex-start;
 }
-body .carte .info .titre_date .titre {
+html body .carte .info .titre_date .titre {
   font-family: "Fjalla One", sans-serif;
 }
-body .carte .info .titre_date .date {
+html body .carte .info .titre_date .date {
   font-family: "Roboto", sans-serif;
   font-size: 150%;
   margin-left: 5%;
 }
-body .carte .info .other {
+html body .carte .info .other {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   font-family: "Roboto", sans-serif;
 }
-body .carte .info .other .real {
+html body .carte .info .other .real {
   margin-top: 3%;
 }
-body .carte .info .other .cast {
+html body .carte .info .other .cast {
   margin-top: 3%;
 }
-body .carte .info .other .desc {
+html body .carte .info .other .desc {
   margin-top: 6%;
 }
-body .carte .info .link {
+html body .carte .info .link {
   margin-top: 3%;
 }
-body .carte .info .link a {
+html body .carte .info .link a {
   text-decoration: none;
   font-family: "Roboto", sans-serif;
   color: black;

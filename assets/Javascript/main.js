@@ -7,7 +7,7 @@ fetch("assets/Javascript/carte.json")
             let carte = `
             <div class="carte">
                 <div class="image">
-                    <img scr="${elements.picture}">
+                    <img src="${elements.picture}">
                 </div>  
                 <div class="info">
                     <div class="titre_date">
@@ -24,10 +24,7 @@ fetch("assets/Javascript/carte.json")
                         <div class="desc">
                             <p>${elements.resume}</p>
                         </div>
-                    </div> 
-                    <div class="link">
-                        <a>${elements.link}</a>
-                    </div> 
+                    </div>  
                 </div>
             </div>
             `;
