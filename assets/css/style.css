@@ -5,23 +5,6 @@
   padding: 0;
 }
 
-header {
-  width: 90%;
-  background-color: rgb(30, 30, 30);
-  font-family: "Fjalla One", sans-serif;
-  color: rgb(250, 250, 250);
-  text-align: center;
-  margin-left: 3%;
-  margin-right: 3%;
-  margin-top: 5%;
-  margin-bottom: 5%;
-}
-@media screen and (min-width: 1280px) {
-  header {
-    font-size: 175%;
-  }
-}
-
 body {
   background-color: rgb(30, 30, 30);
   width: 100%;
@@ -33,74 +16,64 @@ body {
 @media screen and (min-width: 1280px) {
   body {
     display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    margin-left: 2%;
-    margin-top: 2%;
     flex-direction: row;
     flex-wrap: wrap;
+  }
+}
+body header {
+  width: 90%;
+  font-family: "Fjalla One", sans-serif;
+  color: rgb(250, 250, 250);
+  text-align: center;
+  margin-left: 3%;
+  margin-right: 3%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+@media screen and (min-width: 1280px) {
+  body header {
+    font-size: 175%;
+    width: 100%;
   }
 }
 body .main {
   display: flex;
   justify-content: center;
-  width: 70%;
+  width: 100%;
   margin-bottom: 5%;
   margin-top: 5%;
 }
 @media screen and (min-width: 1280px) {
   body .main {
-    width: 24%;
+    width: 33%;
   }
 }
 body .main .carte {
-  width: 100%;
+  width: 80%;
   overflow: hidden;
-  background-color: #d8d8d8;
   box-shadow: 1px 1px 15px 5px rgb(128, 128, 128);
   border-radius: 1%;
-}
-@media screen and (min-width: 1280px) {
-  body .main .carte {
-    width: 72%;
-    height: 65.4%;
-    margin: 1%;
-  }
+  position: relative;
+  overflow: hidden;
 }
 body .main .carte:hover .info {
   visibility: visible;
+  background-color: rgba(0, 0, 0, 0.7);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
 }
 body .main .carte img {
   width: 100%;
-  height: 100%;
   border-radius: 1% 1% 1% 1%;
 }
-body .main .carte img:hover {
-  filter: opacity(20%);
-}
 body .main .carte .info {
-  position: relative;
+  height: 100%;
+  padding: 10px;
   visibility: hidden;
-  margin-left: 5%;
-  margin-right: 5%;
-  display: flex;
-  flex-direction: column;
-  margin-top: -135%;
-  margin-bottom: 6%;
-}
-@media screen and (min-width: 1280px) {
-  body .main .carte .info {
-    margin-top: -115%;
-    display: flex;
-    align-content: center;
-  }
-}
-body .main .carte .info .titre_date {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-items: baseline;
-  justify-content: flex-start;
+  position: absolute;
+  color: white;
+  top: 0px;
+  left: 0px;
 }
 body .main .carte .info .titre_date .titre {
   font-family: "Fjalla One", sans-serif;
@@ -111,9 +84,6 @@ body .main .carte .info .titre_date .date {
   margin-left: 5%;
 }
 body .main .carte .info .other {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
   font-family: "Roboto", sans-serif;
 }
 body .main .carte .info .other .real {

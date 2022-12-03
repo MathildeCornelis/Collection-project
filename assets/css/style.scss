@@ -5,21 +5,7 @@
     margin: 0;
     padding: 0;
 }
-header{
-    width: 90%;
-    background-color: rgb(30, 30, 30);
-    font-family: 'Fjalla One', sans-serif;
-    color: rgb(250, 250, 250);
-    text-align: center;
-    margin-left: 3%;
-    margin-right: 3%;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    @include desktop_xl{
-        font-size: 175%;
-        
-    }
-}
+
 body{
     background-color: rgb(30, 30, 30);
     width: 100%;
@@ -28,94 +14,82 @@ body{
     flex-direction: column;
     align-items: center;
     @include desktop_xl{
-
         display: flex;
-        justify-content: flex-start;
-        align-items: center;
-        margin-left: 2%;
-        margin-top: 2%;
         flex-direction: row;
         flex-wrap: wrap;
+    }
+    header{
+        width: 90%;
+        font-family: 'Fjalla One', sans-serif;
+        color: rgb(250, 250, 250);
+        text-align: center;
+        margin-left: 3%;
+        margin-right: 3%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        @include desktop_xl{
+            font-size: 175%; 
+            width: 100%;
+        }
     }
     .main{
         display: flex;
         justify-content: center;
-        width: 70%;
+        width: 100%;
         margin-bottom: 5%;
         margin-top: 5%;
         @include desktop_xl{
-            width: 24%;
+            width: 33%;
         }
         .carte{
-            width: 100%;
+            width: 80%;
             overflow: hidden;
-            background-color: #d8d8d8;
             box-shadow: 1px 1px 15px 5px rgb(128, 128, 128);
             border-radius: 1%;
-            @include desktop_xl{
-                width: 72%;
-                height: 65.4%;
-                margin: 1%;
-            }
+            position: relative;
+            overflow: hidden;
             &:hover{
-                .info{ 
-                    visibility: visible;
+                .info{
+                visibility: visible;
+                background-color: rgba($color: #000000, $alpha: 0.7);
+                backdrop-filter: blur(10px);
                 }
             }
-            img{
-                width: 100%;
-                height: 100%;
-                border-radius: 1% 1% 1% 1%;
-                    &:hover{
-                        filter:opacity(20%);
-                    }
+                img{
+                    width: 100%;
+                    border-radius: 1% 1% 1% 1%;
             }
             .info{
-                position: relative;
+                height: 100%;
+                padding: 10px;
                 visibility: hidden;
-                margin-left: 5%;
-                margin-right: 5%;
-                display: flex;
-                flex-direction: column;
-                margin-top: -135%;
-                margin-bottom: 6%;
-                @include desktop_xl{
-                    margin-top: -115%;
-                    display: flex;
-                    align-content: center;
-                }
-                    .titre_date{
-                        display: flex;
-                        flex-direction: row;
-                        flex-wrap: wrap;
-                        align-items: baseline;
-                        justify-content: flex-start;
-                        .titre{
-                            font-family: 'Fjalla One', sans-serif;
-                        }
-                        .date{
-                            font-family: 'Roboto', sans-serif;
-                            font-size: 150%;
-                            margin-left: 5%;
-                        }
+                position: absolute;
+                color: white;
+                top: 0px;
+                left: 0px;
+                .titre_date{
+                    .titre{
+                        font-family: 'Fjalla One', sans-serif;
                     }
-                    .other{
-                        display: flex;
-                        flex-direction: column;
-                        flex-wrap: wrap;
+                    .date{
                         font-family: 'Roboto', sans-serif;
-                        .real{
-                            margin-top: 3%;
-                        }
-                        .cast{
-                            margin-top: 3%;
-                        }
-                        .desc{
-                            margin-top: 6%;
-                        }
+                        font-size: 150%;
+                        margin-left: 5%;
                     }
+                }
+                .other{
+                    font-family: 'Roboto', sans-serif;
+                    .real{
+                        margin-top: 3%;
                     }
+                    .cast{
+                        margin-top: 3%;
+                    }
+                    .desc{
+                        margin-top: 6%;
+                    }
+                }
             }
         }
     }
-
+}
