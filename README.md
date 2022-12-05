@@ -1,4 +1,4 @@
-# Collection
+# Collection project
 
 ![](./assets/readme.png)
 
