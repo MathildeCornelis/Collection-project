@@ -24,4 +24,4 @@ This repository was created and edited on December 3, 2022. This project is an e
 4. now you can work on the file
 
 ---
- [](https://mathildecornelis.github.io/consolidation/)
+ [Link to my Github Page.](https://mathildecornelis.github.io/consolidation/)
