@@ -1,4 +1,4 @@
-# consolidation
+# Collection
 
 ![](./assets/readme.png)
 
